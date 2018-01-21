@@ -1,0 +1,16 @@
+﻿.featured{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background-color: rgb(162, 63, 255);
+}
+.align-center{
+    text-align: center;
+    color: #FFF;
+}
+.align-center > h2{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
