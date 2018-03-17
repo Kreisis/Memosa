@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memosa", "Memosa\Memosa.csproj", "{9A06CA95-C8E3-4702-9E1A-231BCEF4B03E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9A06CA95-C8E3-4702-9E1A-231BCEF4B03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A06CA95-C8E3-4702-9E1A-231BCEF4B03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A06CA95-C8E3-4702-9E1A-231BCEF4B03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

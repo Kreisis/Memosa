@@ -1,16 +1,84 @@
-﻿.featured{
+﻿@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+.featured{
     width: 100%;
     padding-top: 120px;
     padding-bottom: 20px;
     background-color: rgb(162, 63, 255);
 }
+.featured-main-text{
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 500;
+}
 .align-center{
     text-align: center;
     color: #FFF;
 }
-.align-center > h2{
+.align-center > h2{ 
     color: #FFF;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
+}
+.browse-container{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 95%;
+    padding-bottom: 0px;
+}
+.thumbnail-wrapper{
+    margin-top: 10%;
+    width: 100%;
+    padding-bottom: 66.66%;
+    position: relative;
+
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function:ease-in-out;
+}
+.thumbnail-holder{
+    position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.thumbnail-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.thumbnail-text{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 2% 2%;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+}
+.thumbnail-wrapper:hover .thumbnail-text{
+    color: rgb(162, 63, 255);
+}
+.thumbnail-wrapper:hover{
+    z-index: 10;
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+@media(max-width: 767px){
+    .browse-container{
+        max-width: 99%;
+        min-width: 99%;
+    }
 }

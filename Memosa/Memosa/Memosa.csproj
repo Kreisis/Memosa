@@ -180,9 +180,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EFModels\Image.cs" />
+    <Compile Include="Models\EFModels\ImageContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Images.mdf" />
+    <Content Include="App_Data\Images_log.ldf">
+      <DependentUpon>Images.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
@@ -210,6 +216,7 @@
     <Content Include="Content\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\browse.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -222,6 +229,88 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="StockIMG\1 %281%29.jpg" />
+    <Content Include="StockIMG\1 %2810%29.jpg" />
+    <Content Include="StockIMG\1 %2811%29.jpg" />
+    <Content Include="StockIMG\1 %2812%29.jpg" />
+    <Content Include="StockIMG\1 %2813%29.jpg" />
+    <Content Include="StockIMG\1 %2814%29.jpg" />
+    <Content Include="StockIMG\1 %2815%29.jpg" />
+    <Content Include="StockIMG\1 %2816%29.jpg" />
+    <Content Include="StockIMG\1 %2817%29.jpg" />
+    <Content Include="StockIMG\1 %2818%29.jpg" />
+    <Content Include="StockIMG\1 %2819%29.jpg" />
+    <Content Include="StockIMG\1 %282%29.jpg" />
+    <Content Include="StockIMG\1 %2820%29.jpg" />
+    <Content Include="StockIMG\1 %2821%29.jpg" />
+    <Content Include="StockIMG\1 %2822%29.jpg" />
+    <Content Include="StockIMG\1 %2823%29.jpg" />
+    <Content Include="StockIMG\1 %2824%29.jpg" />
+    <Content Include="StockIMG\1 %2825%29.jpg" />
+    <Content Include="StockIMG\1 %2826%29.jpg" />
+    <Content Include="StockIMG\1 %2827%29.jpg" />
+    <Content Include="StockIMG\1 %2828%29.jpg" />
+    <Content Include="StockIMG\1 %2829%29.jpg" />
+    <Content Include="StockIMG\1 %283%29.jpg" />
+    <Content Include="StockIMG\1 %2830%29.jpg" />
+    <Content Include="StockIMG\1 %2831%29.jpg" />
+    <Content Include="StockIMG\1 %2832%29.jpg" />
+    <Content Include="StockIMG\1 %2833%29.jpg" />
+    <Content Include="StockIMG\1 %2834%29.jpg" />
+    <Content Include="StockIMG\1 %2835%29.jpg" />
+    <Content Include="StockIMG\1 %2836%29.jpg" />
+    <Content Include="StockIMG\1 %2837%29.jpg" />
+    <Content Include="StockIMG\1 %2838%29.jpg" />
+    <Content Include="StockIMG\1 %2839%29.jpg" />
+    <Content Include="StockIMG\1 %284%29.jpg" />
+    <Content Include="StockIMG\1 %2840%29.jpg" />
+    <Content Include="StockIMG\1 %2841%29.jpg" />
+    <Content Include="StockIMG\1 %2842%29.jpg" />
+    <Content Include="StockIMG\1 %2843%29.jpg" />
+    <Content Include="StockIMG\1 %2844%29.jpg" />
+    <Content Include="StockIMG\1 %2845%29.jpg" />
+    <Content Include="StockIMG\1 %2846%29.jpg" />
+    <Content Include="StockIMG\1 %2847%29.jpg" />
+    <Content Include="StockIMG\1 %2848%29.jpg" />
+    <Content Include="StockIMG\1 %2849%29.jpg" />
+    <Content Include="StockIMG\1 %285%29.jpg" />
+    <Content Include="StockIMG\1 %2850%29.jpg" />
+    <Content Include="StockIMG\1 %2851%29.jpg" />
+    <Content Include="StockIMG\1 %2852%29.jpg" />
+    <Content Include="StockIMG\1 %2853%29.jpg" />
+    <Content Include="StockIMG\1 %2854%29.jpg" />
+    <Content Include="StockIMG\1 %2855%29.jpg" />
+    <Content Include="StockIMG\1 %2856%29.jpg" />
+    <Content Include="StockIMG\1 %2857%29.jpg" />
+    <Content Include="StockIMG\1 %2858%29.jpg" />
+    <Content Include="StockIMG\1 %2859%29.jpg" />
+    <Content Include="StockIMG\1 %286%29.jpg" />
+    <Content Include="StockIMG\1 %2860%29.jpg" />
+    <Content Include="StockIMG\1 %2861%29.jpg" />
+    <Content Include="StockIMG\1 %2862%29.jpg" />
+    <Content Include="StockIMG\1 %2863%29.jpg" />
+    <Content Include="StockIMG\1 %2864%29.jpg" />
+    <Content Include="StockIMG\1 %2865%29.jpg" />
+    <Content Include="StockIMG\1 %2866%29.jpg" />
+    <Content Include="StockIMG\1 %2867%29.jpg" />
+    <Content Include="StockIMG\1 %2868%29.jpg" />
+    <Content Include="StockIMG\1 %2869%29.jpg" />
+    <Content Include="StockIMG\1 %287%29.jpg" />
+    <Content Include="StockIMG\1 %2870%29.jpg" />
+    <Content Include="StockIMG\1 %2871%29.jpg" />
+    <Content Include="StockIMG\1 %2872%29.jpg" />
+    <Content Include="StockIMG\1 %2873%29.jpg" />
+    <Content Include="StockIMG\1 %2874%29.jpg" />
+    <Content Include="StockIMG\1 %2875%29.jpg" />
+    <Content Include="StockIMG\1 %2876%29.jpg" />
+    <Content Include="StockIMG\1 %2877%29.jpg" />
+    <Content Include="StockIMG\1 %2878%29.jpg" />
+    <Content Include="StockIMG\1 %2879%29.jpg" />
+    <Content Include="StockIMG\1 %288%29.jpg" />
+    <Content Include="StockIMG\1 %2880%29.jpg" />
+    <Content Include="StockIMG\1 %2881%29.jpg" />
+    <Content Include="StockIMG\1 %2882%29.jpg" />
+    <Content Include="StockIMG\1 %289%29.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -239,10 +328,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Browse.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
