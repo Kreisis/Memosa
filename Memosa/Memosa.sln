@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memosa", "Memosa\Memosa.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\Dto.csproj", "{1784CE91-552C-4516-BCAF-62A97EA0C6FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E3C68B-08C8-4AA9-9418-B3FA1EAF60F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1784CE91-552C-4516-BCAF-62A97EA0C6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1784CE91-552C-4516-BCAF-62A97EA0C6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1784CE91-552C-4516-BCAF-62A97EA0C6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1784CE91-552C-4516-BCAF-62A97EA0C6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

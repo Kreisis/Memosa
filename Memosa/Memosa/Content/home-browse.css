@@ -1,4 +1,28 @@
 ﻿@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+/*.form-control::-moz-placeholder {
+  color: #999 !important;
+}
+.form-control:-ms-input-placeholder {
+  color: #999 !important;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999 !important;
+}*/
+::-webkit-input-placeholder { /* Chrome */
+  color: #FFF !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #FFF !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #FFF !important;
+  opacity: 0.8;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #FFF !important;
+  opacity: 0.8;
+}
+
 body{
     font-family: 'Lato', sans-serif !important;
 }
@@ -77,8 +101,53 @@ body{
 }
 
 @media(max-width: 767px){
+    .input-group{
+        
+        width: 80% !important;
+    }
     .browse-container{
         max-width: 99%;
         min-width: 99%;
     }
 }
+
+/*Search*/
+.featured-search{
+    padding-top: 130px !important;
+    padding-bottom: 30px !important;
+}
+.form-control:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+.input-group {
+    margin: auto !important;
+    border: 2px solid white !important;
+    border-radius: 100px !important;
+}
+
+.input-group input {
+    color: white;
+    opacity: 1 !important;
+    background: none !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+
+.input-group .input-group-addon {
+    background: none !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+    color: white;
+}
+
+#text-no-results{
+    display: none;
+}
+/*Search*/

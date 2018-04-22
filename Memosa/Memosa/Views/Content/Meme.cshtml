@@ -1,0 +1,58 @@
+﻿@model Dto.Img
+
+@Styles.Render("~/Content/content-meme-classic.css")
+@Styles.Render("~/Content/spectrum.css")
+@Scripts.Render("~/Scripts/meme-classic.js")
+@Scripts.Render("~/Scripts/spectrum.js")
+
+<div class="featured">
+    <div class="container">
+        <div class="align-center">
+            <h2 class="featured-main-text">@Model.Title</h2>
+        </div>
+    </div>
+</div>
+<div class="meme-container">
+    <div class="meme-wrapper">
+        <div class="meme-image">
+            <img id="source-img" src="@Model.Path" />
+            <div class="image-canvas">
+                <canvas id="canvas1"></canvas>
+            </div>
+            <div id="image-texts-holder" class="image-texts">
+
+            </div>
+        </div>
+        <div class="meme-controls">
+            <div id="control-inputs" class="input-group">
+
+            </div>
+            <br>
+            <div class="button-holder">
+                <button id="add-button" type="button" class="btn btn-primary btn-lg"><i class="fas fa-plus"></i></button>
+                <button id="save-button" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#preview-modal"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-container" class="modals">
+    <div class="modal fade" id="preview-modal" tabindex="-1" role="dialog" aria-labelledby="preview-modal-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="preview-modal-title">Preview</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="far fa-window-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="preview-img" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+                </div>
+                <div class="modal-footer">
+                    <button id="close-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="download-button" type="button" class="btn btn-primary"><i class="far fa-arrow-alt-circle-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

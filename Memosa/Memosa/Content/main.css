@@ -109,6 +109,7 @@ body{
 }
 /*Loading animation*/
 .spinner {
+  min-height: 150px;
   margin: 0px auto 0;
   width: 70%;
   text-align: center;

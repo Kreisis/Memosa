@@ -6,8 +6,10 @@
     <link rel="icon" type="image/png" href="~/IMG/memosa-logo.png">
     @Styles.Render("~/Content/bootstrap.min.css")
     @Styles.Render("~/Content/main.css")
-    @Styles.Render("~/Content/fontawesome/font-awesome.css")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     @Scripts.Render("~/Scripts/main.js")
 </head>
@@ -26,7 +28,7 @@
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class=""><a class="resizable" href="~/Home/Browse">BROWSE</a></li>
-                    <li><a class="resizable" href="#">SEARCH</a></li>
+                    <li><a class="resizable" href="~/Home/Search">SEARCH</a></li>
                     <li><a class="resizable" href="#">CUSTOM MEME</a></li>
                     <li><a class="resizable" href="#">ABOUT</a></li>
                 </ul>

@@ -1,0 +1,32 @@
+﻿@Styles.Render("~/Content/home-browse.css")
+@Scripts.Render("~/Scripts/search.js")
+
+<div class="featured featured-search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="align-center">
+                    <div class="input-group input-group-lg stylish-input-group">
+                        <input id="search-input" type="text" class="form-control" placeholder="I'm looking for ...">
+                        <span class="input-group-addon">
+                            <button id="input-button" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container browse-container" id="thumbnail-container">
+</div>
+<div>
+    <h1 id="text-before-search">Text before search</h1>
+    <h1 id="text-no-results">No results</h1>
+</div>
+<div class="spinner" id="load-animation">
+    <div class="bounce1 load-animation-bubble"></div>
+    <div class="bounce2 load-animation-bubble"></div>
+    <div class="bounce3 load-animation-bubble"></div>
+</div>

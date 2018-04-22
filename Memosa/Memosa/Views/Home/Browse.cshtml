@@ -7,7 +7,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <div class="align-center">
                     <div class="col-md-2">
-                        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                        <i class="far fa-lightbulb"></i>
                     </div>
                     <div class="col-md-10">
                         <h2 class="featured-main-text"> And My meme for today is...</h2>
@@ -19,32 +19,10 @@
         </div>
     </div>
 </div>
-<div class="container browse-container">
-    @using(ImageContext db = new ImageContext())
-    {
-        for (int x = 1; x <= 18; x++)
-        {
-            var img = db.Images.First(i => i.ID == x);
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <a href="~/">
-                    <div class="thumbnail-wrapper">
-                        <div class="thumbnail-holder">
-                            <div class="img-wrapper">
-                                <img class="thumbnail-img" src="@img.Path">
-                                <h1 class="thumbnail-text">@img.Title</h1>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-
-        }
-    }
-    <div class="spinner">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
-    </div>
-    
+<div class="container browse-container" id="thumbnail-container">
+</div>
+<div class="spinner" id="load-animation">
+    <div class="bounce1 load-animation-bubble"></div>
+    <div class="bounce2 load-animation-bubble"></div>
+    <div class="bounce3 load-animation-bubble"></div>
 </div>
